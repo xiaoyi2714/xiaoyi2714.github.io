@@ -6,6 +6,7 @@
     height: 5rem;
     width: 5rem;
     border-radius: 5rem;
+    outline: none;
 
     border: 1px solid black;
     background-color: white;
