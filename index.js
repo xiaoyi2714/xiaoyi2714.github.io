@@ -37,18 +37,18 @@ queryListen('#bell', 'click', ()=> {
     }
 })
 
-queryListen('#bell', 'mouseenter', (e)=> {
-    let el = e.target
-    console.log(e)
-    el.style.position = 'absolute'
-    el.style.top = e.clientY - 40 + 'px'
-    el.style.left = e.clientX - 40 + 'px'
+// queryListen('#bell', 'mouseenter', (e)=> {
+//     let el = e.target
+//     console.log(e)
+//     el.style.position = 'absolute'
+//     el.style.top = e.clientY - 40 + 'px'
+//     el.style.left = e.clientX - 40 + 'px'
 
-    window.addEventListener('mousemove', (eIn)=> {
-        el.style.top = eIn.clientY - 40 + 'px'
-        el.style.left = eIn.clientX - 40 + 'px'
-    })
-})
+//     window.addEventListener('mousemove', (eIn)=> {
+//         el.style.top = eIn.clientY - 40 + 'px'
+//         el.style.left = eIn.clientX - 40 + 'px'
+//     })
+// })
 
 
 // #bell
