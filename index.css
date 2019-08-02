@@ -49,3 +49,25 @@
 .mt-200 {
     margin-top: 200px;
 }
+
+.btn {
+    padding: .25rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.btn-p {
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+    color: black;
+}
+
+.btn-p:hover {
+    border: none;
+    outline: none;
+
+    background-color: black;
+    color: white;
+}
