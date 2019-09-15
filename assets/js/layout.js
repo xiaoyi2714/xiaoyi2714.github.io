@@ -18,7 +18,7 @@ function layout() {
         blog.style.marginLeft = '0px';
         sidebar.addEventListener('click', hideSidebar);
         claw.style.display = 'block';
-        claw.style.top = `${height/2 - 32}px`;
+        claw.style.bottom = `${height/2 - 32}px`;
         claw.addEventListener('click', toggleSidebar);
     }
     else {
