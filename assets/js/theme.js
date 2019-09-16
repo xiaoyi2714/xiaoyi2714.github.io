@@ -31,7 +31,7 @@ let currentThemeID = 0;
 function initTheme() {
     let storedThemeID = parseInt(localStorage.getItem('currentThemeID')) ;
     console.log(storedThemeID);
-    if(storedThemeID !== null) {
+    if(!isNaN(storedThemeID)) {
         currentThemeID = storedThemeID;
         currentTheme = themes[currentThemeID];
     }
