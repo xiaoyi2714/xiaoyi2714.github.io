@@ -60,5 +60,5 @@ function toggleSidebar() {
     hide = !hide;
 }
 
-window.addEventListener('resize', layout);
+// window.addEventListener('resize', layout);
 layout();
