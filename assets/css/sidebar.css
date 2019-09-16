@@ -50,6 +50,7 @@
 
 .sidebar-footer {
     flex-grow: 0;
+    height: 60px;
 }
 
 ul.sidebar-list {

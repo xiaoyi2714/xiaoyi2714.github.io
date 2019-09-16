@@ -22,7 +22,6 @@ function layout() {
         claw.style.display = 'block';
         if(!init) {
             init = true;
-            sidebar.addEventListener('click', hideSidebar);
             claw.addEventListener('click', toggleSidebar);
         }
 

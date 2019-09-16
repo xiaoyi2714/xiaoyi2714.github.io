@@ -80,7 +80,7 @@ function setTheme() {
     }
 
     // background
-    els = document.querySelectorAll('#blog');
+    els = document.querySelectorAll('body');
     for(let el of els) {
         el.style.backgroundColor = currentTheme.background;
     }
