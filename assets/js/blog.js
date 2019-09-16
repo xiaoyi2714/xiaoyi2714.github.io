@@ -39,6 +39,7 @@ const renderMD = function(url) {
             currentMDUrl = url;
             blog.innerHTML = marked(res);
             checkLink();
+
         });
 };
 
@@ -90,6 +91,11 @@ document.querySelector('#go-friends')
         location.href = "index.html?page=friends.md"
     });
 
+document.querySelector('#switch-theme')
+    .addEventListener('click', function() {
+        // console.log("hhhhh");
+        nextTheme();
+    });
 
 
 

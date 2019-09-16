@@ -13,6 +13,7 @@
 }
 
 .bg2-hover {
+    color: white;
     background-color: lightsalmon;
     cursor: pointer;
 }

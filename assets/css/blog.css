@@ -1,19 +1,15 @@
-#blog h1,#blog h2,#blog h3,#blog h4,#blog h5,#blog h6,#blog p,#blog ul,#blog ol {
-    color: salmon;
-}
+
 
 #blog hr {
-    border: 2px solid salmon;
+    border: 2px solid;
 }
 
 #blog ul,ol {
     padding-left: 2rem;
 }
 
-/* background */
 #blog p>code, #blog pre {
-    color: salmon;
-    background-color: mistyrose;
+
     border: none;
     border-radius: 3px;
     padding: 10px;
@@ -31,18 +27,13 @@
     white-space: pre;
 }
 
-
-
 #blog a {
-    color: darkseagreen;
     text-decoration: none;
 }
 
 #blog blockquote {
-    background-color: mistyrose;
-
-    border: 1px solid salmon;
-    border-left: 5px solid salmon;
+    border: 1px solid;
+    border-left: 5px solid;
     border-radius: 3px;
 
     padding-left: 1rem;
