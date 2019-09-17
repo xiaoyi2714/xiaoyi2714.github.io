@@ -32,6 +32,10 @@ const checkLink = function() {
 };
 
 const highLight = function() {
+    if(currentThemeID === themes.length-1) {
+        // currently do not highlight on dark mode.
+        return;
+    }
     document.querySelectorAll('pre code').forEach((block) => {
         hljs.highlightBlock(block);
     });

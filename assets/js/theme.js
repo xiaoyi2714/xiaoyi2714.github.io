@@ -27,7 +27,7 @@ const themes = [
         name: "深夜",
         color1: '#6f6f7b',
         color2: '#6f6f7b',
-        color3: 'darkslateblue',
+        color3: '#2f3647',
         link: '#008075',
         background: '#14171e',
     }
