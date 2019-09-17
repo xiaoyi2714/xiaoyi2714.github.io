@@ -33,8 +33,8 @@ const themes = [
     }
 
 ];
-let currentTheme = themes[1];
-let currentThemeID = 1;
+let currentTheme = themes[2];
+let currentThemeID = 2;
 
 function initTheme() {
     let storedThemeID = parseInt(localStorage.getItem('currentThemeID')) ;
@@ -57,7 +57,7 @@ function setTheme() {
     for(let el of els) {
         el.style.color = currentTheme.color1;
     }
-    els = document.querySelectorAll('#blog hr,#blog blockquote');
+    els = document.querySelectorAll('#blog h1,#blog hr,#blog blockquote');
     for(let el of els) {
         el.style.borderColor = currentTheme.color1;
     }
