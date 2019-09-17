@@ -31,6 +31,12 @@ const checkLink = function() {
     }
 };
 
+const highLight = function() {
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
+};
+
 
 const renderMD = function(url) {
     fetch(url)
@@ -39,7 +45,7 @@ const renderMD = function(url) {
             currentMDUrl = url;
             blog.innerHTML = marked(res);
             checkLink();
-
+            highLight();
         });
 };
 

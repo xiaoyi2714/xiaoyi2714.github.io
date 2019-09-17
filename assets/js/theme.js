@@ -11,17 +11,25 @@ const themes = [
         name: "薄荷",
         color1: 'mediumseagreen',
         color2: 'mediumaquamarine',
-        color3: 'lightsteelblue',
+        color3: '#f6f8fa',
         link: 'burlywood',
         background: 'white',
     },
     {
+        name: "工业化",
+        color1: 'black',
+        color2: '#24292e',
+        color3: '#f6f8fa',
+        link: '#0366d6',
+        background: 'white',
+    },
+    {
         name: "深夜",
-        color1: 'lightslategrey',
-        color2: 'dimgrey',
+        color1: '#6f6f7b',
+        color2: '#6f6f7b',
         color3: 'darkslateblue',
-        link: 'midnightblue',
-        background: 'darkslategrey',
+        link: '#008075',
+        background: '#14171e',
     }
 
 ];
