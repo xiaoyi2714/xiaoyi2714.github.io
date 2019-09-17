@@ -1,11 +1,54 @@
+#blog {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
 
+/* Margin */
+#blog blockquote,
+#blog details,
+#blog dl,
+#blog ol,
+#blog p,
+#blog pre,
+#blog table,
+#blog ul {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#blog h1, #blog h2 {
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
+}
+
+#blog h1 {
+    font-size: 2em;
+}
+#blog h2 {
+    font-size: 1.5em;
+}
+#blog h3 {
+    font-size: 1.25em;
+}
+#blog h4 {
+    font-size: 1em;
+}
+#blog h5 {
+    font-size: .875em;
+}
+#blog h6 {
+    font-size: .85em;
+}
+
+/* List */
+#blog ol, #blog ul {
+    padding-left: 2em;
+}
 
 #blog hr {
     border: 2px solid;
-}
-
-#blog ul,ol {
-    padding-left: 2rem;
 }
 
 #blog p>code, #blog pre {
