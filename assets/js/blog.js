@@ -1,19 +1,6 @@
 // const
 const blog = document.querySelector('#blog');
 
-// state
-// let currentMDUrl = null;
-// const router = {
-//     stack: [],
-//     pop: function() {
-//         renderMD(this.stack.pop());
-//     },
-//     push: function(url) {
-//         this.stack.push(url);
-//         renderMD(url);
-//     }
-// };
-
 // tool functions
 function linkInterpreter(link) {
     let vec = link.split('/');
@@ -47,7 +34,18 @@ const renderMD = function(url) {
         .then(resp=>resp.text())
         .then(res=>{
             currentMDUrl = url;
+
+            console.log(`┌────────────────────`);
+            console.log(`│ use marked.js`);
+            console.log(`│ article: ${url}`);
+            let start = new Date().getTime();
+
             blog.innerHTML = marked(res);
+
+            let end = new Date().getTime();
+            console.log(`│ parsing takes: ${(end-start)/1000} seconds`);
+            console.log(`└────────────────────`);
+
             checkLink();
             highLight();
         });
@@ -55,10 +53,8 @@ const renderMD = function(url) {
 
 
 // get query
-renderMD('index.md');
 const query = new URLSearchParams(window.location.search);
 let page = query.get('page');
-console.log(`page: ${page}`);
 if(page === null) {
     renderMD("index.md");
 } else {
