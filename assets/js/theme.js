@@ -25,8 +25,8 @@ const themes = [
     }
 
 ];
-let currentTheme = themes[0];
-let currentThemeID = 0;
+let currentTheme = themes[1];
+let currentThemeID = 1;
 
 function initTheme() {
     let storedThemeID = parseInt(localStorage.getItem('currentThemeID')) ;
