@@ -27,10 +27,11 @@
 * 放弃使用nodejs，部署到github pages无需额外的仓库，同时无需CI(持续集成)。
 * markdown在前端编译渲染，减少了移动网络的流量消耗和服务器的压力。
 
-### 🍫佐料
+### 🍫外部资源
 
+* marked.js: markdown渲染库。
+* highlight.js: 代码高亮
 * ~bootstrap~: 由于过于拖慢加载速度，已经被捞出去了。
-* marked: markdown渲染库。
 
 ## 🚦版权声明
 Copyright (c) 2019 guyaqi
