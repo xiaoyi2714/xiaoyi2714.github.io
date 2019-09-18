@@ -1,4 +1,4 @@
-# ❤友站链接
+# 🔗友站链接
 
 * [LeoJhon.Song's Blog](https://leojhonsong.github.io)
 宋姐姐的博客
