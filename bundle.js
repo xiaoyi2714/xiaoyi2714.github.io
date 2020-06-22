@@ -44424,7 +44424,7 @@ var App = function () {
         //   this.goal += 10
         //   this.goalBoard.innerHTML = this.goal
         // }
-        if (voice > 70) {
+        if (voice > 140) {
           // console.log(voice)
           this.boy.update(voice + 40);
         }
